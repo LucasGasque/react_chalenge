@@ -14,15 +14,6 @@
 
 ## 🔰 Desafio do GitHub Viewer
 
-Primeiramente, obrigado pelo seu interesse em trabalhar na JustForYou! Abaixo você encontrará todas as informações necessárias para iniciar o seu teste.
-
-## 💡 Avisos antes de começar
-
-- Crie um repositório **público** na sua conta do GitHub sem citar nada relacionado a JustForYou;
-- Faça seus commits no seu repositório;
-- Após o término, envie o link de seu repositório para a Tech Recruiter que está conduzindo o seu processo seletivo;
-- Fique tranquilo(a), respire, assim como você, também já passamos por essa etapa. Boa sorte! :)
-
 ## ❓ Detalhamento do desafio
 
 Criar um aplicativo web que utilize a API do GitHub e que tenha as seguintes funcionalidades:
@@ -57,7 +48,6 @@ API: https://api.github.com/users/{username}/repos
 
 ## 📝 Entrega
 
-- Via GitHub, com acesso a conta justfor-br
 - Deve conter um arquivo no repositório explicando como rodar o app
 
 # Como rodar o app:
