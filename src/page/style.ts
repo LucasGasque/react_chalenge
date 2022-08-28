@@ -17,7 +17,7 @@ export const ReposList = styled.div`
   @media (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     alignt-items: flex-start;
     padding: 20px;
   }

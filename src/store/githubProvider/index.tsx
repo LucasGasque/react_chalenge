@@ -55,17 +55,19 @@ export const GithubProvider = ({ children }: StoreProps) => {
 
   const getCommits = () => {
     githubApi
-      .get(`repos/${user.login}/${repo}/branches/${branch.name}/commits`)
+      .get(`repos/${user.login}/${repo}/commits?sha=${branch.name}`)
       .then((response) => setCommits(response.data))
       .catch(() => setCommits([]));
   };
 
   const getRepo = (repo: string) => {
     setRepo(repo);
+    setRender("branches");
   };
 
   const getBranch = (branch: BranchesData) => {
     setBranch(branch);
+    setRender("commits");
   };
 
   const selectRender = (render: string) => {
@@ -75,6 +77,12 @@ export const GithubProvider = ({ children }: StoreProps) => {
   const changeUser = () => {
     setUser({} as UserData);
     setShowModal(true);
+    setRender("repos");
+    setRepos([]);
+    setBranches([]);
+    setCommits([]);
+    setUserError(false);
+    setErrorMessage("");
   };
 
   useEffect(() => {
