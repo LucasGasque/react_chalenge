@@ -1,46 +1,79 @@
+<div align="center">
+  <h1>Dev Challenge - Front</h1>
+</div>
+
+<div align="center">
+    GitHub Viewer
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://reactjs.org/logo-og.png" alt="REACT"  style="width:20%; height:20%"/>
+</div>
+
+## 🔰 Desafio do GitHub Viewer
+
+Primeiramente, obrigado pelo seu interesse em trabalhar na JustForYou! Abaixo você encontrará todas as informações necessárias para iniciar o seu teste.
+
+## 💡 Avisos antes de começar
+
+- Crie um repositório **público** na sua conta do GitHub sem citar nada relacionado a JustForYou;
+- Faça seus commits no seu repositório;
+- Após o término, envie o link de seu repositório para a Tech Recruiter que está conduzindo o seu processo seletivo;
+- Fique tranquilo(a), respire, assim como você, também já passamos por essa etapa. Boa sorte! :)
+
+## ❓ Detalhamento do desafio
+
+Criar um aplicativo web que utilize a API do GitHub e que tenha as seguintes funcionalidades:
+
+- Buscar/Listar todos os repositórios publicos de um usuário do github
+- Dado um repositório, listar todas as branches
+- Dado uma branch, listar todos os commits daquela branch
+
+Entrada da aplicação:
+
+- Username do GitHub (tudo começa baseado em um usuário)
+
+Layout:
+
+- Assets básicos: https://bit.ly/jfy-miv
+
+## ❓ API
+
+Documentação da API: https://docs.github.com/pt/rest/reference
+
+Exemplo:
+API: https://api.github.com/users/{username}/repos
+(ex: https://api.github.com/users/rftemer/repos);
+
+## 📝 Pontos Importantes
+
+- Componentização
+- Estrutação de código
+- Tratamento de erros
+- Adaptabilidade de devices (Responsividade)
+- Fluxo da aplicação
+
+## 📝 Entrega
+
+- Via GitHub, com acesso a conta justfor-br
+- Deve conter um arquivo no repositório explicando como rodar o app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Como rodar o app:
 
-In the project directory, you can run:
+## Instale as dependências com o comando:
 
-### `yarn start`
+```bash
+    yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Rode o app com o comando:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+    yarn start
+```
