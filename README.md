@@ -60,10 +60,6 @@ API: https://api.github.com/users/{username}/repos
 - Via GitHub, com acesso a conta justfor-br
 - Deve conter um arquivo no repositório explicando como rodar o app
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Como rodar o app:
 
 ## Instale as dependências com o comando:
