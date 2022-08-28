@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root{
-        --primary: #2c00a7;
+        --primary: #EB2A44;
         --secondary: #E0E0E0;
-        --black: #0f0f0f;
+        --black: #828282;
     }
     *{
     margin: 0;

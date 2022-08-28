@@ -33,4 +33,5 @@ export const Title = styled.h1`
   color: var(--secondary);
   margin-bottom: 20px;
   font-size: 2.5rem;
+  text-align: center;
 `;

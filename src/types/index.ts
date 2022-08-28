@@ -20,7 +20,6 @@ export interface ReposData {
 
 export interface BranchesData {
   name: string;
-  sha: number;
 }
 
 interface Author {
@@ -51,4 +50,5 @@ export interface StoreContextData {
   getBranch: (branch: BranchesData) => void;
   render: string;
   selectRender: (render: string) => void;
+  changeUser: () => void;
 }

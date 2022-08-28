@@ -13,4 +13,12 @@ export const ReposList = styled.div`
   justify-content: center;
   gap: 10px;
   padding: 10px 0;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    alignt-items: flex-start;
+    padding: 20px;
+  }
 `;

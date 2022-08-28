@@ -7,8 +7,7 @@ import { useProvider } from "../store/githubProvider";
 import { Body, ReposList } from "./style";
 
 const MainPage = () => {
-  const { showModal, repos, branches, commits, render, getRepo } =
-    useProvider();
+  const { showModal, repos, branches, commits, render } = useProvider();
 
   return (
     <Body>
